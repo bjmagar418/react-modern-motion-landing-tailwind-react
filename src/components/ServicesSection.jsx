@@ -34,9 +34,9 @@ const services = [
 const ServicesSection = () => {
   return (
     <section className="py-20 container mx-auto px-4 sm:px-6 lg:px-8" id="services">
-      <div className=" flex flex-column md:flex-row items-center justify-between gap-12 lg:gap-24">
+      <div className=" flex flex-col md:flex-row items-center justify-between gap-12 lg:gap-24 ">
         {/*header */}
-        <div className="md:w-1/3 w-full">
+        <digitv className="md:w-1/3 w-full">
           <h2 className="text-3xl md:text-4xl font-bold mb-6 md:w-4/5">
             Future of support with my shape
           </h2>
@@ -62,7 +62,7 @@ const ServicesSection = () => {
           <button className="mt-8 bg-indigo-600 text-white px-8 py-3 cursor-pointer rounded-full hover:bg-indigo-700 transition-colors">
             Get started
           </button>
-        </div>
+        </digitv>
         {/*service cards*/}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
          {services.map((service,index)=>(
